@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:calendarview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="@string/app_name"
+        app:menu="@menu/calendar_menu"
+        style="@style/MyToolbar">
+     </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/baby_green"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_cal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/tv_text"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <com.othershe.calendarview.weiget.WeekView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            fab:week_size="17"
+            calendarview:week_color="@color/dark_green"/>
+
+        <com.othershe.calendarview.weiget.CalendarView
+            android:id="@+id/calview"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            calendarview:choose_type="single"
+            calendarview:show_holiday="true"
+            calendarview:show_lunar="true"
+            calendarview:show_term="true"
+            calendarview:choose_color="@color/pale_blue"
+            calendarview:switch_choose="true"
+            calendarview:solar_size="25"
+            calendarview:lunar_size="12"
+            calendarview:day_bg="@drawable/hstar"
+            fab:lunar_color="@color/light_green"
+            fab:holiday_color="@color/yellow"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/choose_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

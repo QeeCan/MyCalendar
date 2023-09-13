@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#055C54</color>
+    <color name="colorPrimaryDark">#055908</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="pale_blue">#22B7E4</color>
+    <color name="baby_blue">#A4D7E6</color>
+    <color name="solar_background">#009988</color>
+    <color name="dark_green">#035047</color>
+    <color name="light_green">#4CAF50</color>
+    <color name="yellow">#FFC107</color>
+    <color name="light_yellow">#F1A22F</color>
+    <color name="young_green">#8BC34A</color>
+    <color name="back_white">#FFFFFF</color>
+    <color name="btn_text">#291B1B</color>
+    <color name="brown">#3E2525</color>
+    <color name="light_brown">#553535</color>
+    <color name="tv_text">#1E1E1E</color>
+    <color name="light_grey">#807575</color>
+    <color name="baby_grey">#DEE4EA</color>
+    <color name="baby_yellow">#F1EDCA</color>
+    <color name="baby_green">#CFE3B9</color>
+
+</resources>

@@ -1,0 +1,99 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--所有的Toolbar样式-->
+    <style name="MyToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/solar_background</item>
+    </style>
+
+    <!--所有的text样式-->
+    <style name="MyTextStyle">
+        <item name="android:textColor">@color/tv_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--只有回退menu的toolabar中的text样式-->
+    <style name="MyTBTextStyle">
+        <item name="android:textColor">@color/tv_text</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:paddingLeft">110dp</item>
+        <item name="android:paddingVertical">10dp</item>
+    </style>
+
+    <!--Schedule的Tag中的text样式-->
+    <style name="MyTagTextStyle">
+        <item name="android:textColor">@color/tv_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--Schedule的DateTime的text样式-->
+    <style name="MyTimeTextStyle">
+        <item name="android:textColor">@color/solar_background</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!--Cons的text样式-->
+    <style name="MyConsTextStyle">
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--Luck的text样式-->
+    <style name="MyLuckTypeTVStyle">
+        <item name="android:textColor">@color/pale_blue</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--Luck的text样式-->
+    <style name="MyLuckContentTVStyle">
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <!--Weather的text样式-->
+    <style name="MyWeaTypeTVStyle">
+        <item name="android:textColor">@color/young_green</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--Weather的text样式-->
+    <style name="MyWeaContentTVStyle">
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--Old的Titletext样式-->
+    <style name="MyOldTitleTVStyle">
+        <item name="android:textColor">@color/light_yellow</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--Old的Contenttext样式-->
+    <style name="MyOldContentTVStyle">
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--News的Titletext样式-->
+    <style name="MyNewsCategoryTVStyle">
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="MyNewsAuthorTVStyle">
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

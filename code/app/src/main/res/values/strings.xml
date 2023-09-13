@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MyCalendar</string>
+    <string name="calendar_menu_add">新建日程</string>
+    <string name="calendar_menu_list">日程列表</string>
+    <string name="calendar_menu_more">更多选择</string>
+    <string name="schedule_menu_add">新建</string>
+    <string name="schedule_menu_search">查找</string>
+    <string name="cal_list_name">日程</string>
+    <string name="edit_back">回退</string>
+    <string name="edit_check">确认</string>
+    <string name="edit_title">新建日程</string>
+    <string name="hint_edit">点击记录美好生活</string>
+    <string name="date">设置日期</string>
+    <string name="edit_type_hint">类型</string>
+    <string name="edit_type_personal">个人</string>
+    <string name="edit_type_work">工作</string>
+    <string name="nav_news">新闻</string>
+    <string name="nav_old">黄历</string>
+    <string name="nav_weather">天气</string>
+    <string name="nav_cons">星座</string>
+    <string name="bar_luck">运势</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cons_eg">白羊座</string>
+    <string name="sche_time_eg">2021–5-22 18:10</string>
+    <string name="sched_tag_eg">个人工作</string>
+    <string name="tv_type">tv类别示例</string>
+    <string name="tv_details">tv内容示例</string>
+    <string name="title_activity_net">NetActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

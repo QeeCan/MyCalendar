@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_edit"
+        style="@style/MyToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:menu="@menu/edit_menu"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24">
+
+        <TextView
+            android:id="@+id/tv_edit_title"
+            style="@style/MyTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/edit_title" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/et_edit"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="40dp"
+        android:background="@drawable/edit_shape"
+        android:hint="@string/hint_edit"
+        android:textCursorDrawable="@color/tv_text"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_set_date"
+            style="@style/MyTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_shape"
+            android:text="@string/date" />
+
+        <TextView
+            android:id="@+id/tv_set_date"
+            style="@style/MyTextStyle"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="70dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_set_time"
+            style="@style/MyTextStyle"
+            android:background="@drawable/edit_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date" />
+
+        <TextView
+            android:id="@+id/tv_set_time"
+            style="@style/MyTextStyle"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="70dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_type"
+            style="@style/MyTextStyle"
+            android:background="@drawable/edit_shape"
+            android:layout_width="90dp"
+            android:layout_height="42dp"
+            android:text="@string/edit_type_hint" />
+
+        <RadioGroup
+            android:id="@+id/rg_schedule_type"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_type_personal"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="50dp"
+                android:button="@drawable/rbtn_personal"
+                android:text="@string/edit_type_personal"
+                android:checked="true"
+                android:textColor="@color/tv_text"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rb_type_work"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:button="@drawable/rbtn_work"
+                android:text="@string/edit_type_work"
+                android:textColor="@color/tv_text"
+                android:textSize="20sp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ConsFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_cons"
+        style="@style/MyToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24">
+
+        <TextView
+            android:id="@+id/tv_cons_title"
+            style="@style/MyTBTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/nav_cons" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcy_cons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"/>
+
+</LinearLayout>
